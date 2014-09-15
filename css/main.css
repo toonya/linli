@@ -30,7 +30,7 @@ header .header-inner .special-fn {
 }
 header .header-inner .search {
   width: 200px;
-  left: 80px;
+  left: 20px;
 }
 header .header-inner .search input,
 header .header-inner .search button {
@@ -55,7 +55,7 @@ header .header-inner .logo {
           transform: translateX(-50%);
 }
 header .header-inner .special-fn {
-  right: 26px;
+  right: 10px;
 }
 header .header-inner .special-fn ul {
   margin: 0;
@@ -170,8 +170,9 @@ header nav .nav-justified li a {
   border: none;
 }
 .primary section.user-nav .item h3 {
+  font-weight: bold;
   font-size: 12px;
-  margin: 24px 0 18px;
+  margin: 0 0 10px;
 }
 .primary section.user-nav .item p {
   font-size: 8px;

@@ -1,0 +1,38 @@
+// ----------------------------------------
+// ! variable
+// ----------------------------------------
+
+@c-light-yellow: #FDF9EC;
+@c-black: #000000;
+@c-light-green: #26b00a;
+
+@gradient-0: #ffb744;
+@gradient-54: #dfd48d;
+@gradient-81: #8ac591;
+@gradient-100: #4aa79b;
+
+
+@w-max: 664px;
+
+
+// ----------------------------------------
+// ! main
+// ----------------------------------------
+
+.page {
+	background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), linear-gradient(@gradient-0, @gradient-54 54%, @gradient-81 81%, @gradient-100);
+	background-repeat: no-repeat, repeat-x, repeat, repeat;
+	background-size: contain, auto auto, auto auto, auto auto;
+	background-position: 0 150px, 0% 0%, 0% 0%, 0% 0%;
+	min-height: 1000px;
+
+	.page-inner {
+		width: 664px;
+		margin: 0 auto;
+	}
+}
+
+
+// ----------------------------------------
+// ! responsive
+// ----------------------------------------

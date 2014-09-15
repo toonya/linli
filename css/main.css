@@ -1,0 +1,12 @@
+.page {
+  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), -webkit-linear-gradient(#ffb744, #dfd48d 54%, #8ac591 81%, #4aa79b);
+  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), linear-gradient(#ffb744, #dfd48d 54%, #8ac591 81%, #4aa79b);
+  background-repeat: no-repeat, repeat-x, repeat, repeat;
+  background-size: contain, auto auto, auto auto, auto auto;
+  background-position: 0 150px, 0% 0%, 0% 0%, 0% 0%;
+  min-height: 1000px;
+}
+.page .page-inner {
+  width: 664px;
+  margin: 0 auto;
+}

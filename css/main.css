@@ -1,3 +1,6 @@
+a:hover {
+  text-decoration: none;
+}
 .page {
   background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), -webkit-linear-gradient(#4aa79b, #8ac591 54%, #dfd48d 81%, #ffb744);
   background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), linear-gradient(#4aa79b, #8ac591 54%, #dfd48d 81%, #ffb744);

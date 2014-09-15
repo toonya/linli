@@ -1,6 +1,6 @@
 .page {
-  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), -webkit-linear-gradient(#ffb744, #dfd48d 54%, #8ac591 81%, #4aa79b);
-  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), linear-gradient(#ffb744, #dfd48d 54%, #8ac591 81%, #4aa79b);
+  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), -webkit-linear-gradient(#4aa79b, #8ac591 54%, #dfd48d 81%, #ffb744);
+  background: url(../img/artistic.png), url(../img/wood.png), url(../img/pattern.png), linear-gradient(#4aa79b, #8ac591 54%, #dfd48d 81%, #ffb744);
   background-repeat: no-repeat, repeat-x, repeat, repeat;
   background-size: contain, auto auto, auto auto, auto auto;
   background-position: 0 150px, 0% 0%, 0% 0%, 0% 0%;
@@ -9,4 +9,184 @@
 .page .page-inner {
   width: 664px;
   margin: 0 auto;
+}
+header,
+.primary {
+  background: #fdf9ec;
+}
+header .header-inner {
+  height: 82px;
+  width: 100%;
+  position: relative;
+}
+header .header-inner .search,
+header .header-inner .logo,
+header .header-inner .special-fn {
+  position: absolute;
+  bottom: 12px;
+}
+header .header-inner .search {
+  width: 200px;
+  left: 80px;
+}
+header .header-inner .search input,
+header .header-inner .search button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  position: absolute;
+  bottom: 0;
+}
+header .header-inner .search input {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 0;
+  border-radius: 0;
+}
+header .header-inner .search button {
+  right: 0;
+}
+header .header-inner .logo {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+header .header-inner .special-fn {
+  right: 26px;
+}
+header .header-inner .special-fn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header .header-inner .special-fn ul li {
+  display: inline-block;
+  padding: 0 2px;
+}
+header .header-inner .special-fn ul li a {
+  font-size: 10px;
+  color: #686868;
+}
+header .header-inner .special-fn ul li a.green {
+  color: #26b00a;
+}
+header nav {
+  height: 30px;
+  overflow: hidden;
+  padding: 3px 14px;
+  background: #000000;
+}
+header nav .nav-pills > li.active > a,
+header nav .nav-pills > li.active > a:hover,
+header nav .nav-pills > li.active > a:focus {
+  background: none;
+}
+header nav .nav-pills > li > a,
+header nav .nav-pills > li > a:hover,
+header nav .nav-pills > li > a:focus {
+  background: none;
+}
+header nav li {
+  border-left: dotted 1px #fdf9ec;
+}
+header nav li:first-child {
+  border: none;
+}
+header nav .nav-justified li a {
+  padding: 0;
+  line-height: 24px;
+  color: #fdf9ec;
+  font-size: 11px;
+}
+.primary {
+  margin-top: 230px;
+  min-height: 300px;
+  box-shadow: 0 0 26px rgba(137, 137, 137, 0.75);
+}
+.primary section.section-main {
+  padding-top: 12px;
+}
+.primary section.section-main img {
+  position: relative;
+  margin-left: -10px;
+}
+.primary section.download {
+  margin-bottom: 21px;
+}
+.primary section.download .item {
+  width: 110px;
+  height: 110px;
+  float: left;
+  background: #fff;
+  box-shadow: inset 0 0 3px #555;
+  margin: 21px;
+  position: relative;
+}
+.primary section.download .item:first-child {
+  margin-left: 50px;
+}
+.primary section.download .item img {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.primary section.download .item img.center-center {
+  top: 50%;
+}
+.primary section.download .item a {
+  color: #555;
+  font-size: 10px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.primary section.download .item a span {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.primary section.user-nav {
+  background: #000000;
+}
+.primary section.user-nav .item {
+  float: left;
+  width: 33.33%;
+  height: 118px;
+  margin: 9px 0;
+  color: #fefefe;
+  padding-left: 44px;
+  border-left: dotted 2px #fdf9ec;
+}
+.primary section.user-nav .item:first-child {
+  border: none;
+}
+.primary section.user-nav .item h3 {
+  font-size: 12px;
+  margin: 24px 0 18px;
+}
+.primary section.user-nav .item p {
+  font-size: 8px;
+  margin-bottom: 0;
+}
+footer {
+  padding: 50px 0 75px;
+}
+footer ul {
+  margin: 0 0 0 160px;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+}
+footer ul li a {
+  padding: 0 12px;
+  font-size: 10px;
+  color: #555;
 }
